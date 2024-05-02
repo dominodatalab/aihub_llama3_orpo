@@ -10,7 +10,7 @@
     "LLM Alignment"
   ],
   "mainRepository": {
-    "uri": "https://github.com/dominodatalab/aihub__llama3_orpo",
+    "uri": "https://github.com/dominodatalab/aihub_llama3_orpo",
     "ref": {
       "type": "commitId",
       "value": "6c9338a"
