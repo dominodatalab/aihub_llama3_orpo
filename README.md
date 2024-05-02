@@ -1,7 +1,7 @@
 # Fine tuning Llama3-8b using ORPO
 
 ## About this project
-This project shows how to fine tune and align Llama3-8b using supervised fine tuning and alignment in one training step as opposed to have one step for fine tuning and another for reward adjustment and alignment. We use [ORPO](https://arxiv.org/pdf/2403.07691) that's available in the `trl` library from Huggingface. In order to fine tune the model, we will load it in 4bit, train a LoRA adapter and merge it back to the base llama3-8b model.
+This project shows how to fine tune and align Llama3-8b using supervised fine tuning and alignment in one training step as opposed to have one step for fine tuning and another for reward adjustment and alignment. We use [ORPO](https://arxiv.org/pdf/2403.07691) that's available in the `trl` library from Huggingface. In order to fine tune the model, we will load it in 4bit, train a LoRA adapter and merge it back to the base `llama3-8b` model.
 
 The assets available in this project are:
 
