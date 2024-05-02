@@ -38,7 +38,7 @@ This project requires the following [compute environments](https://docs.dominoda
 RUN git clone https://github.com/EleutherAI/lm-evaluation-harness.git /lm-evaluation-harness && \
     cd /lm-evaluation-harness && \
     pip install -e . && \
-    pip install -q -U transformers==4.40.1 datasets==2.19.0 accelerate==0.29.3 peft==0.10.0 trl==0.8.6 bitsandbytes==0.43.1
+    pip install -q -U transformers==4.40.1 datasets==2.19.0 accelerate==0.29.3 peft==0.10.0 trl==0.8.6 bitsandbytes==0.43.1 mlflow==2.12.1
 
 ```
 ***Pluggable Workspace Tools** 
