@@ -6,6 +6,7 @@ This project shows how to fine tune and align Llama3-8b using supervised fine tu
 The assets available in this project are:
 
 *llama3_sft.ipynb* - This notebook includes all the code necessary to download the dataset, model files and to run the ORPO training for llama3-8b.
+
 *llama3_sft_eval.ipynb* - This notebook uses Eleuther AI's evaluation harness and benchmark [framework](https://github.com/EleutherAI/lm-evaluation-harness/tree/main) to evaluate the base llama3-8b model and the fine tuned ORPO llama3-8b model
 
 The detailed results of the `eqbench` and `truthfulqa` benchmarks are in the `benchmark_results` folder. Please note that we only used 1000 samples from the dataset to tune the model and the results are only for demonstration purposes only. 
