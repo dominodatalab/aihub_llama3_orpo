@@ -60,7 +60,7 @@ vscode:
     port: 8888
     requireSubdomain: false
 ```
-Please change the value in `start` according to your Domino version.
+Please change the value in `start` according to your Domino version. This repo has been tested with Domino 5.10.0 and 5.11.0 .
 
 ### Hardware Requirements
 
